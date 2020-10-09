@@ -26,7 +26,7 @@ library(lubridate)
 ################################################################################
 
 
-#Create a directory for the data, it it does not already exist
+#Create a directory for the data, if it does not already exist
 if(!file.exists("./data")){dir.create("./data")}
 
 #Download the zipped data from the course's website
