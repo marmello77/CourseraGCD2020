@@ -152,4 +152,4 @@ First, I download the data directly from the course's website and unsipped them 
 5. From the data set in step 4, created a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-Obs: I tried to use *tidyverse* tools in as many lines as possible, as this was the preferred approached in this course. I've also tried to pipe some commands, in order to get used to this coding style.
+Obs: I tried to use *tidyverse* tools in as many lines as possible, as this was the preferred approach in this course. I've also tried to pipe some commands, in order to get used to this coding style.
