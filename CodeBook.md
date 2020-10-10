@@ -139,7 +139,7 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 
 Following the assignment's guidelines and review criteria, I carried out the following data transformations.
 
-First, I download the data directly from the course's website and unsipped them in a local directory. Then I:
+First, I've downloaded the data directly from the course's website and unzipped them in a local directory. Then I:
 
 1. Merged the training and the test sets to create the One Data Set;
 
