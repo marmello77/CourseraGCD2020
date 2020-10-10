@@ -157,8 +157,9 @@ DataTidyAve <- DataTidy %>%
 
 #Check the new data set
 DataTidyAve
+head(DataTidyAve)
 names(DataTidyAve)
 summary(DataTidyAve)
 
 #Export the new data set as a TXT file
-write.table(DataTidyAve, "DataTidyAve.txt", row.name=FALSE)
+write.table(DataTidyAve, "DataTidyAve.txt", row.names = FALSE)
