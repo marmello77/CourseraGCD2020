@@ -85,11 +85,11 @@ range(subject_test)
 # (The Lord of R, by J RRRRRRR Tolkien)
 
 
-#Merge the data step by step
+#Merge the data step by step to create the One Dat Set
 Xdata <- rbind(x_train, x_test)
 Ydata <- rbind(y_train, y_test)
 Subject <- rbind(subject_train, subject_test)
-DataMerged <- cbind(Subject, Ydata, Xdata)
+DataMerged <- cbind(Subject, Ydata, Xdata) #This is the One Data Set, forged by Sauron
 
 #Check the merged data
 DataMerged
@@ -100,7 +100,7 @@ DataMerged
 ################################################################################
 
 
-#Make the embryo of the tidy data set with only the requested variables, as descrived in "features_info.txt"
+#Make the embryo of the tidy data set with only the requested variables, as described in "features_info.txt"
 DataTidy <- DataMerged %>% select(subject, code, contains("mean"), contains("std"))
 
 
